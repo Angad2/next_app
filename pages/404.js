@@ -11,9 +11,9 @@ const custom404 = () => (
             subTitle="Sorry, the page you visited does not exist. Work is in progress ..."
             extra={<Button type="primary" onClick={()=>Router.push('/')} style={{background:'#FF4F57',border:'none'}} shape="round" >Back Home</Button>}
         />
-        {/* <Head>
+        <Head>
             <title>Coming Soon</title>
-        </Head> */}
+        </Head>
     </div>
 )
 

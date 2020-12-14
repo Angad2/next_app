@@ -9,7 +9,7 @@ const ServiceCard = () =>{
                 <Col span={10}>
                     <div>
                         <h1 className={styles.headerText}>Welcome To Bright University</h1>
-                        <p className={styles.pText}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Imran</p>
+                        <p className={styles.pText}>Lorem ipsum dolor sit am, consectetur adipisicing elit. Imran</p>
                     </div>
                     <div style={{marginTop:'50px'}}>
                         <Row>

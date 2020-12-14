@@ -1,0 +1,15 @@
+.loaderSpin :global(.ant-spin-dot-item){
+    background-color: #FF4F57 !important;
+    height: 25px !important;
+    width: 25px !important;
+}
+.loaderSpin :global(.ant-spin-text){
+    font-size: 25px;
+    top: 62% !important;
+    color: #FF4F57 !important;
+    font-weight: 700;
+}
+.loaderSpin :global(.ant-spin-dot){
+    height: 1.5em !important;
+    width: 1.5em !important;
+}

@@ -1,0 +1,56 @@
+.headerDiv{
+    background-color: #fff;
+    padding: 10px 0px;
+    font-weight: 500;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.imageContainer {
+    height: 40px;
+    width: 300px;
+    object-fit: cover;
+}
+.imageContainer img{
+    width: 45%;
+    cursor: pointer;
+}
+.logoText{
+    margin: 10px 10px;
+    font-size:25px;
+    font-weight:bold
+}
+.menuItem a:hover{ 
+    color:#FF4F57 ;
+    /* text-transform: uppercase; */
+    /* font-weight:700; */
+}
+.items{
+    display: inline-block;
+    margin: 15px 8px;
+    font-size: 16px;
+    color: gray;
+}
+.items a{
+    color: gray;
+}
+.menuI:hover{
+    color: #fff;
+    background-color: #FF4F57;
+}
+.actionbtnWrapper{
+    margin: 15px 10px;
+    font-size: 16px;
+}
+.actionDevider{
+    padding: 0 6px;
+    display: inline-block;
+}
+.actionbtnWrapper a{
+    color: gray;
+}
+.actionbtnWrapper a:hover{ 
+    color:#FF4F57 ;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+

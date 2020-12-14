@@ -1,0 +1,55 @@
+.imgBanner{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.mainDiv{
+    width: 100%;
+    height: 700px;
+}
+.loginDiv{
+    width: 530px;
+    height: 550px;
+    background-color: #fff;
+    margin-top: 70px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+.formDiv{
+    padding: 60px 50px;
+}
+.formInput{
+    padding: 10px 10px;
+}
+.loginBtn{
+    background-color: #FF4F57;
+    border: none;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.loginBtn:hover{
+    text-transform: uppercase;
+}
+.actionDevider{
+    font-size: 20px;
+    padding-right: 10px;
+}
+.loginformforgot{
+    color: gray;
+    font-weight: 600;
+}
+.loginformforgot:hover{
+    color: #FF4F57;
+    text-transform: uppercase;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+  .center h2{
+    color: #fff;
+    font-weight: bold;
+  }

@@ -1,0 +1,106 @@
+.imgBanner{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.mainDiv{
+    width: 100%;
+    height: 500px;
+}
+.loginDiv{
+    width: 500px;
+    height: 280px;
+    background-color: #fff;
+    margin-top: 70px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+.formDiv{
+    padding: 50px 50px;
+}
+.formInput{
+    padding: 10px 10px;
+}
+.loginBtn{
+    background-color: #FF4F57;
+    border: none;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.loginBtn:hover{
+    text-transform: uppercase;
+}
+.actionDevider{
+    font-size: 20px;
+    padding-right: 10px;
+}
+/* .loginformforgot{
+    color: gray;
+    font-weight: 600;
+}
+.loginformforgot:hover{
+    color: #FF4F57;
+    text-transform: uppercase;
+} */
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+  .center h2{
+    color: #fff;
+    font-weight: bold;
+  }
+
+  
+.signbtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signinBody {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signinFrom {
+    width: 500px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+.signinicon {
+    color: #FF4F57;
+    margin-right: 8px;
+}
+.signbtn button {
+    background-color:#FF4F57 ;
+    color: #fff;
+}
+.signbtn button:hover {
+    background-color:#FF4F57 ;
+    color: #fff;
+    border: none;
+}
+
+/* .signbtn .ant-btn:hover, .signbtn .ant-btn:active, .signbtn .ant-btn:focus {
+    background-color:#BFD101 ;
+    color: #fff;
+    border: #BFD101 1px solid;
+} */
+
+.checkbox :global(.ant-checkbox-checked .ant-checkbox-inner) {
+    background-color: #FF4F57;
+    border-color: #FF4F57;
+}
+
+.checkbox :global(.ant-checkbox-wrapper:hover .ant-checkbox-inner, .ant-checkbox:hover .ant-checkbox-inner, .ant-checkbox-input:focus + .ant-checkbox-inner) {
+    border-color: #FF4F57;
+}
+

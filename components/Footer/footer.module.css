@@ -1,0 +1,21 @@
+.footerLink a{
+    
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: block;
+    color: gray;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.footerLink a:hover{
+    color:#FF4F57 ;
+    font-weight: 600;
+}
+.footerLink :global(.ant-typography){
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.footLead :global(.ant-layout-footer) {
+    background-color: #061a2d;
+}

@@ -1,0 +1,36 @@
+.fontfamily{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.footerText :global(.ant-layout-footer){
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #95a5a6;
+    background-color: #061a2d;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+ .layoutCustom :global(.ant-layout-content) {
+    background-color: #061a2d;
+}
+ .layoutCustom :global(.ant-layout) {
+    background-color: #061a2d;
+}
+ .divi :global(.ant-divider-horizontal) {
+    background-color: #061a2d;
+}
+
+.footerText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .socialImg {
+    
+} */
+.socialImg ul li{
+    display: inline-block;
+    padding: 8px;
+
+}

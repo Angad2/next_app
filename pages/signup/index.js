@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CustomLayout from '../../components/Layout/layout';
 import {Row,Col ,Form, Input, Button, Checkbox ,Breadcrumb} from 'antd';
 import { UserOutlined, LockOutlined,MessageOutlined,PhoneOutlined } from '@ant-design/icons';
-import styles from './Signup.module.css';
+import styles from './signup.module.css';
 import Link from 'next/link';
 
 const Signup = () => {
